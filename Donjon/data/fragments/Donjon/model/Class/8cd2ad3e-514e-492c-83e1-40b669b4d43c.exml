@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Obstacle" version="3">
+  <DEPS>
+    <ID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+    <COMPID name="Obstacle (structure_autodiagram)" mc="ClassDiagram" uid="a2bdb733-9cce-4da8-94e3-c76d2b225ae1"/>
+    <EXTID name="ElementSpécial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Obstacle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="bloquer" mc="Operation" uid="f031ecd3-f710-406e-8b3e-f5f8ee707c87"/>
+          <PID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[bloquer]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="58d36378-1f0c-4bc1-9354-83e2ea5e876f"/>
+          <PID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="ElementSpécial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Obstacle (structure_autodiagram)" mc="ClassDiagram" uid="a2bdb733-9cce-4da8-94e3-c76d2b225ae1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

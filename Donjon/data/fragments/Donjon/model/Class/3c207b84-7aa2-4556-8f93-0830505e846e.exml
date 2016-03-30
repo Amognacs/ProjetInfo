@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Defense" version="3">
+  <DEPS>
+    <ID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+    <COMPID name="Defense (structure_autodiagram)" mc="ClassDiagram" uid="c60a92ec-635c-4ed3-8c20-70d085800e6c"/>
+    <COMPID name="Défense (structure_autodiagram)" mc="ClassDiagram" uid="741eb387-e05b-41a2-9d5f-fa11c6c14a3e"/>
+    <EXTID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Defense]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="defendre" mc="Operation" uid="0e7019b0-95c8-45fc-b064-a9f9be527b49"/>
+          <PID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[defendre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="e23e55f9-7caf-4cec-a5a6-9c2b75c47dda"/>
+          <PID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Défense (structure_autodiagram)" mc="ClassDiagram" uid="741eb387-e05b-41a2-9d5f-fa11c6c14a3e"/>
+        <COMPID name="Defense (structure_autodiagram)" mc="ClassDiagram" uid="c60a92ec-635c-4ed3-8c20-70d085800e6c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

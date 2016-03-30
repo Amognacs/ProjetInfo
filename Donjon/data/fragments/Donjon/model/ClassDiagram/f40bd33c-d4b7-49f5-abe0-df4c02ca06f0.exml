@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PorteDonjon (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="PorteDonjon (structure_autodiagram)" mc="ClassDiagram" uid="f40bd33c-d4b7-49f5-abe0-df4c02ca06f0"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PorteDonjon (structure_autodiagram)" mc="ClassDiagram" uid="f40bd33c-d4b7-49f5-abe0-df4c02ca06f0"/>
+    <PID name="PorteDonjon" mc="Class" uid="50998adc-bf67-4429-a6e1-09fbfd06c636"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">2</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[PorteDonjon (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

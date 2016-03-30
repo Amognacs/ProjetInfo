@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pouvoir" version="3">
+  <DEPS>
+    <ID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+    <COMPID name="Pouvoir (structure_autodiagram)" mc="ClassDiagram" uid="bb4f6921-30a8-44cb-b6e4-9b628c32b3b3"/>
+    <EXTID name="Arme" mc="Class" uid="5c23cdc3-9a59-425e-b489-56ed0df54ca3"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Pouvoir]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="faireDegats" mc="Operation" uid="f1a7132a-fe59-4722-b6a1-bb2fdc25acc2"/>
+          <PID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[faireDegats]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="953e75a2-b460-4ec4-a513-4ec65b5243d8"/>
+          <PID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Arme" mc="Class" uid="5c23cdc3-9a59-425e-b489-56ed0df54ca3"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Pouvoir (structure_autodiagram)" mc="ClassDiagram" uid="bb4f6921-30a8-44cb-b6e4-9b628c32b3b3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

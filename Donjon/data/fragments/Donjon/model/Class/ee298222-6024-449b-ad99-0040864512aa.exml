@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ObstacleIncassable" version="3">
+  <DEPS>
+    <ID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+    <COMPID name="ObstacleIncassable (structure_autodiagram)" mc="ClassDiagram" uid="3db90fa3-0a8d-482d-ab01-65a22c7c4b74"/>
+    <EXTID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ObstacleIncassable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="bloquer" mc="Operation" uid="62874205-c150-46c1-abc6-30fe034bdc0c"/>
+          <PID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[bloquer]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="4c4246fd-7cfc-4300-92b0-0e4d8b3fd406"/>
+          <PID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="ObstacleIncassable (structure_autodiagram)" mc="ClassDiagram" uid="3db90fa3-0a8d-482d-ab01-65a22c7c4b74"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

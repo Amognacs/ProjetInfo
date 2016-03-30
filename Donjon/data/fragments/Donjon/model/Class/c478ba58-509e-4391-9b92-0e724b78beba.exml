@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Argent" version="3">
+  <DEPS>
+    <ID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+    <COMPID name="Argent (structure_autodiagram)" mc="ClassDiagram" uid="157a4fda-22ec-4f14-98a7-6492a2a3e509"/>
+    <EXTID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Argent]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="f7ccb88a-5e02-4a63-aa7e-aff6f8b102ac"/>
+          <PID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Argent (structure_autodiagram)" mc="ClassDiagram" uid="157a4fda-22ec-4f14-98a7-6492a2a3e509"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rapidité (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="Rapidité (structure_autodiagram)" mc="ClassDiagram" uid="7b8980fa-dbeb-48ea-abcc-fedc730e8f63"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Rapidité (structure_autodiagram)" mc="ClassDiagram" uid="7b8980fa-dbeb-48ea-abcc-fedc730e8f63"/>
+    <PID name="Rapidité" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Rapidité (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

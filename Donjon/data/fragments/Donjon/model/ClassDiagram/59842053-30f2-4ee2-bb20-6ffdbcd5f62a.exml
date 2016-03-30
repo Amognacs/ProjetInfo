@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="donjon Class diagram" version="3">
+  <DEPS>
+    <ID name="donjon Class diagram" mc="ClassDiagram" uid="59842053-30f2-4ee2-bb20-6ffdbcd5f62a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="donjon Class diagram" mc="ClassDiagram" uid="59842053-30f2-4ee2-bb20-6ffdbcd5f62a"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">0</ATT>
+      <ATT name="UiData"></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[donjon Class diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JPanel (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="JPanel (structure_autodiagram)" mc="ClassDiagram" uid="52662385-3d29-47b4-a26f-26e5083fba3d"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="JPanel (structure_autodiagram)" mc="ClassDiagram" uid="52662385-3d29-47b4-a26f-26e5083fba3d"/>
+    <PID name="JPanel" mc="Class" uid="a2764ca4-bd55-4875-a78e-1a9353587d72"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">2</ATT>
+      <ATT name="UiData"><![CDATA[eJztml1v4jgUhv9KhPY2AQIBuu101AJiq9JSJe1IuzfIJAfqqRMj20xLf/3YgbAlncmkISTa2VyBD/Hrr+fY58ScfX7xifYNGMc0+FRrGo2a9vn8bDL7Cq7QsCdNNU2sl/CpRtnC8KkHBFPDw2jBkG+AhwVlBhdI4CcDCPgQCL4pu9FDI98Jy4NNuab56Ctl012jjdr52R2jS2BirQXIl20RtKYrMUACyd++ILKCbSeCFSG1+vlZParwrqoj1gRqe0Mwk4bA1fPccCkDY1M3Rf/6iLvIAy9qbPgibJinbOVWSmxravAiBrMr2cfwq/riwRytiIgNsr4ZTtLAGRAkwJP9iM3ZjTJp35RF9pwgzrcroVlmp2O2epbe8swTvd2dtXVkdua62QGr0WvNZ6jlJc+2VBPXAX0OxmgGJNawIxgOFtJYD62JnacEroI+9ZeUYyGnPbtU/xETj4FSGGMu9khoZYDZJej1VUIcztxB8NqyGyhYqHXfroZpNU6b7cap2WicWtaHwW7/l8D2EQ6SR9gfXzjO1B7e2UNnejMZDGPzNwxW/p+phnoN6z9sWDLgcgmR4ulGVtlNu3NvP/TvH+zh4KhupiGz22m7qK3PPMvS272upaNuD/QmOmlZLavX9brmb+Vf1qH+dcewj9j6NlytXF2tcZrZzTpp3UxKvawz+5pytI1XV1DuSd3InUMRcSCc3QxwKlW+RC48glwqJjG9jSx/hZbio5ne0Tf9CMROBeK+1GbJUwjyR/o8xe47oUsqW0LBbiLmiHBIHmMo9QTrZ8q8HNQEcp+mXAAD+gs1wVZpukZ+MPUfl0IzLhhyRYYR7qh84yMn2c4hzvEch17e3xVs4PgVzQiMGF0ti3f3ZqPY06dy+nxDomaWBBoJ2fhsJWChoJM8XkSGsihMnUPnQ6GkvsJwT2qfgCxQ1rcfyVtnM0uOrATDNCvidRIZyuI1dWpc8XqkoB3EI/WODWuWhBMHMvwJZCQhwxJXrCQDI/9qa3MiWwnIFpxmVsjGpSIIDj3xsySaqaAsazNNnXLmRGYVg8akjr2NZsmXUhH7Dw1K2ErNgnOmCti4lFr3nHlNh7KZJd3CQQAszP9DhmXh8Mse5QoL9X5wu5J68+MYV0lX6RFBkOp9X1I4YGZJqH5CZEkBgFlwNmXGMfjfg3jkAMDMlkf9kFHgJR36BedPFaTlHvrvf4q1g/kXWcIuynA9kb6V9xfXxpamXwQErRT3GGamVNJHC9hdXIb3M8pBlVVdXjrKuiEiz/gmfmudwmGLu8msrtRjUo4cGyFYpPHX3+EyM23fMt5m5rJfjXHwxBM2xdjjl4sBQ89yNcdoLf1w37WSE/pop/A2AtwgSkJuEnuKxZzgH6tVyp8ccZzVyIsGI2N88ffQnl5e9K9H9uThdpD3+fdTlbdL9S81b//rmPgSpGIgbwbuJ3eFBT/fAV2A9y4=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[JPanel (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

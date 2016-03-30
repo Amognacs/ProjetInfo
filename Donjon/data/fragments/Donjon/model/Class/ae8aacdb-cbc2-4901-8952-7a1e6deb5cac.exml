@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RetourVersPasse" version="3">
+  <DEPS>
+    <ID name="RetourVersPasse" mc="Class" uid="ae8aacdb-cbc2-4901-8952-7a1e6deb5cac"/>
+    <COMPID name="RetourVersPasse (structure_autodiagram)" mc="ClassDiagram" uid="d785ac5b-2c29-4c29-9dc5-8842f9065b35"/>
+    <COMPID name="RetourVersPassé (structure_autodiagram)" mc="ClassDiagram" uid="4e4b3e97-3f64-4e4f-820c-7d2dc2ae4dda"/>
+    <EXTID name="Portail" mc="Class" uid="90d6f472-5abd-4a11-88d2-64c2a662ae8b"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="RetourVersPasse" mc="Class" uid="ae8aacdb-cbc2-4901-8952-7a1e6deb5cac"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[RetourVersPasse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="15810abd-a037-420e-8961-054c03b92c09"/>
+          <PID name="RetourVersPasse" mc="Class" uid="ae8aacdb-cbc2-4901-8952-7a1e6deb5cac"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Portail" mc="Class" uid="90d6f472-5abd-4a11-88d2-64c2a662ae8b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="RetourVersPassé (structure_autodiagram)" mc="ClassDiagram" uid="4e4b3e97-3f64-4e4f-820c-7d2dc2ae4dda"/>
+        <COMPID name="RetourVersPasse (structure_autodiagram)" mc="ClassDiagram" uid="d785ac5b-2c29-4c29-9dc5-8842f9065b35"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

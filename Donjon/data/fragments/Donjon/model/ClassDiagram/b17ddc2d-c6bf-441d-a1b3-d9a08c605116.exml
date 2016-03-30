@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Bouclier (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="Bouclier (structure_autodiagram)" mc="ClassDiagram" uid="b17ddc2d-c6bf-441d-a1b3-d9a08c605116"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Bouclier (structure_autodiagram)" mc="ClassDiagram" uid="b17ddc2d-c6bf-441d-a1b3-d9a08c605116"/>
+    <PID name="Bouclier" mc="Class" uid="29921d22-6243-4d3e-922a-cdcb58a8775c"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">2</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Bouclier (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

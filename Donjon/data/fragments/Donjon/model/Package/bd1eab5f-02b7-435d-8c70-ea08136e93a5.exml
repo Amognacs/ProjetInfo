@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="donjon" version="3">
+  <DEPS>
+    <ID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <COMPID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+    <COMPID name="Arme" mc="Class" uid="5c23cdc3-9a59-425e-b489-56ed0df54ca3"/>
+    <COMPID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+    <COMPID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+    <COMPID name="Bombe" mc="Class" uid="c34c9d8e-2523-44cf-a2ef-c09816914584"/>
+    <COMPID name="BonusVie" mc="Class" uid="1cfc4771-e211-4bc5-84cc-b6414323e7dd"/>
+    <COMPID name="Bouclier" mc="Class" uid="29921d22-6243-4d3e-922a-cdcb58a8775c"/>
+    <COMPID name="ClavierGestion" mc="Class" uid="c9d7d7e1-5f89-436d-8838-606f352301be"/>
+    <COMPID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+    <COMPID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+    <COMPID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+    <COMPID name="Ennemi" mc="Class" uid="b0c8a15a-4774-4f3d-a23d-b994d65ab603"/>
+    <COMPID name="EnnemiType1" mc="Class" uid="eb4907b3-e0d0-4d12-8768-f21b38d659f2"/>
+    <COMPID name="EnnemiType2" mc="Class" uid="df4820a8-e75f-4468-b94a-8c82061e0478"/>
+    <COMPID name="Epee" mc="Class" uid="efa4aa26-5047-41da-908c-51004659cad7"/>
+    <COMPID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+    <COMPID name="Explosion" mc="Class" uid="302a69df-68dc-4e93-8763-8413b40060f0"/>
+    <COMPID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+    <COMPID name="Hache" mc="Class" uid="5ab8957d-156c-44ec-a073-1adf26dae6c6"/>
+    <COMPID name="Heros" mc="Class" uid="28a7fb70-f3cd-4e46-8c46-95191384159e"/>
+    <COMPID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+    <COMPID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+    <COMPID name="Model" mc="ClassDiagram" uid="f0ce3991-4f69-49c2-9015-5230e2d76450"/>
+    <COMPID name="ObjetSpecial" mc="Class" uid="f293b08d-a09d-4e3e-b4fa-32b2ec6d1a76"/>
+    <COMPID name="ObservableReel" mc="Class" uid="4ebca984-5ca8-448b-bf0f-d7568396ff2c"/>
+    <COMPID name="ObservateurReel" mc="Class" uid="997e9089-bf96-4fd1-98c7-f89cab6eb3e3"/>
+    <COMPID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+    <COMPID name="ObstacleCassable" mc="Class" uid="0e652fd6-6645-4f40-a255-36bd7125b522"/>
+    <COMPID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+    <COMPID name="PanJeu" mc="Class" uid="720e29b8-c895-421e-a430-be71b4fd058c"/>
+    <COMPID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+    <COMPID name="PanMort" mc="Class" uid="b3442f63-ec0a-4f70-b1a1-e7f237791569"/>
+    <COMPID name="PanRegle" mc="Class" uid="1ad4a709-d6ab-4e3d-879a-c7d244c63ab8"/>
+    <COMPID name="Personnage" mc="Class" uid="b0e87e3d-8ef7-47de-8fb8-76d08adf5228"/>
+    <COMPID name="Poison" mc="Class" uid="4ad41a2e-684b-451a-8021-854ba18b72cc"/>
+    <COMPID name="Portail" mc="Class" uid="90d6f472-5abd-4a11-88d2-64c2a662ae8b"/>
+    <COMPID name="PorteDonjon" mc="Class" uid="50998adc-bf67-4429-a6e1-09fbfd06c636"/>
+    <COMPID name="Potion" mc="Class" uid="0689024e-3764-4e60-98fb-a4cda64e679a"/>
+    <COMPID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+    <COMPID name="Pouvoir1" mc="Class" uid="0889fdd5-cf40-4543-a54d-4a8fc2e84af6"/>
+    <COMPID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+    <COMPID name="Projet en gros plan" mc="ClassDiagram" uid="ec80073a-8434-4a74-880f-69aeecb38996"/>
+    <COMPID name="Rapidite" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+    <COMPID name="RetourVersPasse" mc="Class" uid="ae8aacdb-cbc2-4901-8952-7a1e6deb5cac"/>
+    <COMPID name="Runnable" mc="Interface" uid="5d9f0ac4-ff05-4ed1-b6aa-7e0a42f4c83d"/>
+    <COMPID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+    <COMPID name="SacType" mc="Class" uid="9b342905-88c0-4dd0-ae3f-11b7e3b440a1"/>
+    <COMPID name="Teleportation" mc="Class" uid="c0752d21-9ae7-4148-93fc-2c20f731a0c8"/>
+    <COMPID name="View" mc="ClassDiagram" uid="20478b47-7ef5-4ba8-a93d-0f46b1ea17bc"/>
+    <COMPID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+    <COMPID name="donjon Class diagram" mc="ClassDiagram" uid="59842053-30f2-4ee2-bb20-6ffdbcd5f62a"/>
+    <COMPID name="java.awt.event" mc="Package" uid="a6baf9aa-c8a8-433d-8074-cb0bff4e4680"/>
+    <COMPID name="java.awt.event" mc="Package" uid="593740ce-89bf-4076-b52f-a1013055235a"/>
+    <COMPID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+    <COMPID name="javax.swing" mc="Package" uid="c240771d-ca5f-4181-b022-31ed69c9a9df"/>
+    <COMPID name="javax.swing" mc="Package" uid="5262c044-f91d-4828-bae3-c8278be28dba"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <PID name="Donjon" mc="Project" uid="7d0a4ed6-8262-460c-a299-82442ef36fd6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[donjon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Personnage" mc="Class" uid="b0e87e3d-8ef7-47de-8fb8-76d08adf5228"/>
+        <COMPID name="Heros" mc="Class" uid="28a7fb70-f3cd-4e46-8c46-95191384159e"/>
+        <COMPID name="Ennemi" mc="Class" uid="b0c8a15a-4774-4f3d-a23d-b994d65ab603"/>
+        <COMPID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+        <COMPID name="Obstacle" mc="Class" uid="8cd2ad3e-514e-492c-83e1-40b669b4d43c"/>
+        <COMPID name="EnnemiType2" mc="Class" uid="df4820a8-e75f-4468-b94a-8c82061e0478"/>
+        <COMPID name="EnnemiType1" mc="Class" uid="eb4907b3-e0d0-4d12-8768-f21b38d659f2"/>
+        <COMPID name="Portail" mc="Class" uid="90d6f472-5abd-4a11-88d2-64c2a662ae8b"/>
+        <COMPID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+        <COMPID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+        <COMPID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+        <COMPID name="ObstacleCassable" mc="Class" uid="0e652fd6-6645-4f40-a255-36bd7125b522"/>
+        <COMPID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+        <COMPID name="Arme" mc="Class" uid="5c23cdc3-9a59-425e-b489-56ed0df54ca3"/>
+        <COMPID name="ObjetSpecial" mc="Class" uid="f293b08d-a09d-4e3e-b4fa-32b2ec6d1a76"/>
+        <COMPID name="Epee" mc="Class" uid="efa4aa26-5047-41da-908c-51004659cad7"/>
+        <COMPID name="Hache" mc="Class" uid="5ab8957d-156c-44ec-a073-1adf26dae6c6"/>
+        <COMPID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+        <COMPID name="Bouclier" mc="Class" uid="29921d22-6243-4d3e-922a-cdcb58a8775c"/>
+        <COMPID name="Bombe" mc="Class" uid="c34c9d8e-2523-44cf-a2ef-c09816914584"/>
+        <COMPID name="BonusVie" mc="Class" uid="1cfc4771-e211-4bc5-84cc-b6414323e7dd"/>
+        <COMPID name="Rapidite" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+        <COMPID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+        <COMPID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+        <COMPID name="Explosion" mc="Class" uid="302a69df-68dc-4e93-8763-8413b40060f0"/>
+        <COMPID name="SacType" mc="Class" uid="9b342905-88c0-4dd0-ae3f-11b7e3b440a1"/>
+        <COMPID name="Teleportation" mc="Class" uid="c0752d21-9ae7-4148-93fc-2c20f731a0c8"/>
+        <COMPID name="RetourVersPasse" mc="Class" uid="ae8aacdb-cbc2-4901-8952-7a1e6deb5cac"/>
+        <COMPID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+        <COMPID name="Potion" mc="Class" uid="0689024e-3764-4e60-98fb-a4cda64e679a"/>
+        <COMPID name="PorteDonjon" mc="Class" uid="50998adc-bf67-4429-a6e1-09fbfd06c636"/>
+        <COMPID name="Pouvoir1" mc="Class" uid="0889fdd5-cf40-4543-a54d-4a8fc2e84af6"/>
+        <COMPID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+        <COMPID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+        <COMPID name="Poison" mc="Class" uid="4ad41a2e-684b-451a-8021-854ba18b72cc"/>
+        <COMPID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+        <COMPID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+        <COMPID name="ClavierGestion" mc="Class" uid="c9d7d7e1-5f89-436d-8838-606f352301be"/>
+        <COMPID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+        <COMPID name="PanJeu" mc="Class" uid="720e29b8-c895-421e-a430-be71b4fd058c"/>
+        <COMPID name="PanRegle" mc="Class" uid="1ad4a709-d6ab-4e3d-879a-c7d244c63ab8"/>
+        <COMPID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+        <COMPID name="PanMort" mc="Class" uid="b3442f63-ec0a-4f70-b1a1-e7f237791569"/>
+        <COMPID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+        <COMPID name="ObservableReel" mc="Class" uid="4ebca984-5ca8-448b-bf0f-d7568396ff2c"/>
+        <COMPID name="ObservateurReel" mc="Class" uid="997e9089-bf96-4fd1-98c7-f89cab6eb3e3"/>
+        <COMPID name="javax.swing" mc="Package" uid="5262c044-f91d-4828-bae3-c8278be28dba"/>
+        <COMPID name="javax.swing" mc="Package" uid="c240771d-ca5f-4181-b022-31ed69c9a9df"/>
+        <COMPID name="java.awt.event" mc="Package" uid="593740ce-89bf-4076-b52f-a1013055235a"/>
+        <COMPID name="java.awt.event" mc="Package" uid="a6baf9aa-c8a8-433d-8074-cb0bff4e4680"/>
+        <COMPID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+        <COMPID name="Runnable" mc="Interface" uid="5d9f0ac4-ff05-4ed1-b6aa-7e0a42f4c83d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Model" mc="ClassDiagram" uid="f0ce3991-4f69-49c2-9015-5230e2d76450"/>
+        <COMPID name="View" mc="ClassDiagram" uid="20478b47-7ef5-4ba8-a93d-0f46b1ea17bc"/>
+        <COMPID name="Projet en gros plan" mc="ClassDiagram" uid="ec80073a-8434-4a74-880f-69aeecb38996"/>
+        <COMPID name="donjon Class diagram" mc="ClassDiagram" uid="59842053-30f2-4ee2-bb20-6ffdbcd5f62a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KeyListener (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="KeyListener (structure_autodiagram)" mc="ClassDiagram" uid="75f65bfd-23b1-499a-ac0d-f65fabbb9af0"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="KeyListener (structure_autodiagram)" mc="ClassDiagram" uid="75f65bfd-23b1-499a-ac0d-f65fabbb9af0"/>
+    <PID name="KeyListener" mc="Interface" uid="52fec760-9510-4863-9783-350632dcb1b7"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">2</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1zojoUgP8K49yvIGDVeu12p1Vvb6dWO9juzO4XJ0Cw2QbiJHFb99dvguKtL0tpinB3hk+SIzl5Oc8J53A4+/wSYu0HpAyR6FPNMsya9vn8bOx+hx7XkC9ENY0v5/BTjdCZERIfYkQMH4EZBaEBfcQJNRgHHD0ZEMMQRpyt2l5y01U4idv9VbumheA7odPNoGbt/OyOkjmkfKlFIBRjYbAkC94HHIj/vgC8gOtJRAuMa/Xzs3rSYa/rhC8xrG0twU5bApP3M8MjFBqrvhnm1wPMAz70k8EGL9yBQcZRRkLFuqcGX3jfvRZzjC/lhQ8DsMB8Z5H11XLSFk4hBhz6Yh47e3YrRdoPKREzx4CxtSW0djNoNd3A1+2Ga+knnQ7QgWf6upAGwHXdDgjM9N0W2vhNRJ6jIXAh3hl4wimKZkJYj6WpkycYXkc9Es4JQ1xsu7qq3iPCPoVSwxAxvkVCQwFmFHFIA/ATCpCvV9deJkh+C7EjpgOimbT/2ip20+xaJ2bXNs1us/1uwE/+JMBDgKL0FV6P7gfOPxe9wdQZ3DmDyfR23B/s7OEgWoR/Z1ruDVz+5cA5hUyYE0i2bkWXzdZP7p2H3v2DM+gfy+U20GhNO4Beu2XqnaZl6ienrYbeaZ829EbTbDVs33Mt9w3j/2H+1szL3+4oCgFdjmLL5ep6ZlfZ7VpZ3U6oelkq+550vJWXV4DuqboVp4mk4oOgthVAlVrZXGzbIxTmogLXUSL5N5YUH+mcHv1BkMDYqmDcV7UyewaF7JE8T5G3p+iSiJFAtNkMThcwfYmxpie4fCbUf0NZADB7SxsH3tOUCQtAks/U8IGdf78q4DJOgccVVrgB85WbdBS83ZOBMwpQ7Oi9TcOBDP0ELoZXlCzmxXu8ZRb7EKr8Pv8oyVLJsQEXg7sLDmcSPMHkRSIoi8TMaXY+JFq7qWmFolC1TYEKmPX1T/oRaqmk0lJhnIElzI4TQVnMZs6cK2aPGMND/kj8YwOrnItGIqoQIYrHF3STkwrZJJGVgG3BmWeF7SFVCQgfffqr5J6ZwCzrUM2cheZEZxWTHlB17ONUJYfKRO03EpVwpNoF51EVtIdUSdvnzGw2nG2VFAxFEaTxe4GYY9GI3wt8CF5pvZl8dbi2pm69H+UqEfsfoBzz8MHQwFarVx6ksqRgwC44wxLwVzAWHQzYarnVQU4hKykAKDinqkAtPwDY/2tnHMS+iBbygEIJI/soh+vcxpqqNwKERoZ6h62UYoZgBjc1zriOIx1VSmWdcyKlKypy/ham1W11daurEvkUV/+sivEHVE3E+jBGPIsLZy2BZqlallUDzTo3xSJoLkfYEEVPLOWc3Ln9ctan4FlYcwiW4pTZdq/0nD85OPyVAmZgqUKcGVsai3mwv69XKZ9Ool1WEy/qXxnDi68DZ3p50bu5csYPo37ej8Tfanltqv+oef0FZep7koqBvBm4H98VFg/9AjdXFsA=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[KeyListener (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pouvoir2" version="3">
+  <DEPS>
+    <ID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+    <COMPID name="Pouvoir2 (structure_autodiagram)" mc="ClassDiagram" uid="916fb6ae-38b1-4d9f-89cb-db0798564fd8"/>
+    <EXTID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Pouvoir2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="f63b151f-4ce1-47d5-b462-dc235b28cad3"/>
+          <PID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Pouvoir" mc="Class" uid="28de68c2-0ce8-4281-98bc-e5dc8d0df617"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Pouvoir2 (structure_autodiagram)" mc="ClassDiagram" uid="916fb6ae-38b1-4d9f-89cb-db0798564fd8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

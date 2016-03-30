@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pouvoir2 (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="Pouvoir2 (structure_autodiagram)" mc="ClassDiagram" uid="916fb6ae-38b1-4d9f-89cb-db0798564fd8"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Pouvoir2 (structure_autodiagram)" mc="ClassDiagram" uid="916fb6ae-38b1-4d9f-89cb-db0798564fd8"/>
+    <PID name="Pouvoir2" mc="Class" uid="d8517135-d188-4ce5-9ea0-f520f3005d98"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">2</ATT>
+      <ATT name="UiData"><![CDATA[eJztXFtz2jgU/isMs68mvonLkraTAsNmQkLGpJ3ZfcnIlkzUGJuxRRPy61eygYKTGiN8gY5f2ljBR7fvHJ1P5wuXX15nTu0n9gPiuZ/qSkOu1758vhybP7BFawSxpnqNLuf4U93zp42Zh7BDvAYicOrDWQMjQj2/EVBIyXMDO3iGXRpEz9b6Q8PZJHzuR8/12gz+8PzHTady/fPlve/NsU+XNRfOWF8OXHoL2ocUst99h84CrwbhLhynfvH58mL9wrtXJ3Tp4PrOFNSkKQT880HD8nzciN5NMb4eDCyIMFp3NnilBrZT9nLHTKzerOFX2jev2RjDH/kPCNtw4dDYJC+i6SRN3McOpBixccTW7JY31X7yFjZyBwbBaidqHaVpm02IJa1tKpKOOrbU7limhEy51WmDpm6jdvJqM2v0xvVe3BE0sRPreEJ94k5Z40XYmjh4z8HXbs+bzb2AULbs4qZ6T8RBPuYWRiSgO0jQBMBsOfDtjYE4XLmjwGuwYUB3yvd9tRsqkLtKE3RVWe4CcDCw9XMC9gwSN3mGvdHVZPJoDO6NweTxdtwfxNZv4C5mf6ea6g1e/mXguY8DtoWQ4+mWvbJZ9smD8a338M0Y9HN1sxpqA6WlaEBCSrst6RYGUgdDWbKBKtuaLAPU+bP8CxzrX/c+mUF/eRfuVqauJndlUTdrpnUzZup1Kexr3NEir65AuWPqlkUOjogjwdkSACe3GsyhhZ8w2yqfwfRu3fJP2FJ8NtPOPeivgdisgLhrKtryFAaDJ+/lkVjvDH31WE/Q3SyEDZ0AJ88xNPWMly+ejzKwRqH1/BhQ7GNvjzXqL9IMzflg6Q83Bc2A+tCiAjPcoHLLRzpi51AQEJuEXt7bPBg4IG/QdPDQ9xbz4t1dkYs9fSqnzzYlUkQINKSsc3NB8ZSDjuHxat1QFgpTc+hsUMhQX8Fwx9QuAkRAebH6Lzl0KiIcmRsMadYar+N1Q1l4TU2NK7zmlLRj+uShvMEqQjiJy9Ifl2USLC2x6IJhYDi7XrVN1m0lQLZgmllBNm5qDYJjT3wRopkKlGUF09SUMyNkVjlozFTeYVSEL6VC7H+eW0IoVQvmTBVg46b4vmeM13RQVkXoFnFd7If8P8Qwezi+2MNdYcrvB1c7KSmHw7giXaVnBG6q+76kdEAVIVS/QWRJCYBaMJtiwK+AWGQCoIrxqA8xioOSDv2C+VMF0nIP/fe/ivVDgu/siVhQoDyRvpf3hevGCk17EgItRR1DFaKSMzjFm8JlWJ/hDspbefFywlsjRGSZ38Sr1ikctrhKZlVSj5masLk5DqFp/PVPKGamHZtgNfNQkiJYn8xNh6apoKvLXaB01cPlMVpqtn0KMrTo2iLfeKC2EW62LVWSLczigdpWpE7btCQMkNVGMrKbSuu04sGxukoR1l2g8EsQ2AXzby1n/n1+sMxI+aWJUPATlH5p+Qt+N1jMmd2cHxYr8Vdm6VLMVMbiL01QhXyK6i+t4EuNyu2zzoxEGPzJyb+0givAWs4FtfODYVHyL02EmnKDJyX/0gsuAFd4zVj+tb2XItxyg8htMJaAw/z/9HRzxZkbedysX81WYEvRVCjZGHQkvaWqktmEimSaqo0sFUDLiucPp396/wnp+mldb+piFe+TVGXqBZe+q5MkJ1WmnptUuKwcp+g/S825iHZ+yMw5Fddz0xGXI9DQCyaRFWBPRpWpiwmMT1KVCSpuWXpGcLwqE2SoEy4pAQAFlydBVZ4sNgEAGSqHy1JlgoL5UwXSSpWJc1ZlAiEqeSaqTJCaVlZ6l0qWef73lntDyYi4z8GHKaQIP2cxAPvQIW/r6sRwp+Fg598eTyK//qV04L7rsEmxzu8hfUrT5cRb+Ba+cq0nz491mszs3ncKQyM8OTHgcuIQxNUVK8spRoKIbTNguRaOwaFPWE9hgF8DQpHlrkCE6eOAfjTTZiLvK3WmKngvb0wxU777KxhF4N7u5d4jLv11LPIvqlTCPlJ9aK9XGQzC2L8hbjzgHPYljz2PZbgW95zI4DX6VbYyHv4ZD8d3V6M9ASbEtgGf4+u8P9+l0J9imu7VFPvx0VcPJtLUTE/j3JQ/uxGuZjc1UwGKzf9OQpH0FgKSqTdVCVmqBky1zQYXT8JyOpWjqLZNHpL75ZFhO33Zc3eEX2nkp/z0uIVz9tnoX5FT6Ou078MXNrMRXOJ4ZEq8CNhEJhQZCBoON8HC0o7FYpjhYW+V8pXGJB6R1ojqDxujq38HxuPXq97N0Bh/u+tnzat+D72trfowGWkm3xVUGMgYAw/j+8JI9f8iz8U/]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Pouvoir2 (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

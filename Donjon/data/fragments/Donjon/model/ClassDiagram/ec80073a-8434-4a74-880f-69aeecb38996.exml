@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Projet en gros plan" version="3">
+  <DEPS>
+    <ID name="Projet en gros plan" mc="ClassDiagram" uid="ec80073a-8434-4a74-880f-69aeecb38996"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Projet en gros plan" mc="ClassDiagram" uid="ec80073a-8434-4a74-880f-69aeecb38996"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">49</ATT>
+      <ATT name="UiData"><![CDATA[eJztU01P4zAQ/SuW73Wz2whSKRRBgypElqKWXYkTmsbTrItjV7YLzb9fp2l3aVeNgoTgwsn2eN6brzfx+bqQ5BmNFVqd0W8soOR8EI9nC8wcEdybKHHlEs+oNjkrNEcpNOMCcgMFQy6cNsw6cOKJocQClbP1O9s5jYrp5p3Ub0oKWGjz+DdoQAfxndFLNK4kCgofS0KpVy4BB/7vF8gVbpNQKylpdxB3d4D/oFNXSqR7JXxvKsFW/pZl2iCrsS3yG4LNgCPfBbtauwnOW0a59RRbJMG1S2bXPsfNtbpwnMNKuoMiu3U5TYUblOCQ+zwOevajMpHnyuIzl2DtdhIEsygITnvQicJe2AnhNOxEUTDvnPQBMZv1on7/pLnbns3dKP2iUpihPAg8dUaonA48ZoGOoCK50ZYsJai4u3FsrEdLvFZDXSy1Fc5P4gh7C6rhbyG5wYohFbbq4vY4ikiFerLt3S/zxMCLTyeFEs2++nqNC7RbGV7jLZMVg9+ZPcKPWZm3oT5Fb4IfUUEyYunFw9Xk8fJieDOajH/eJu8jjBab93pU/0TzSgLhlwQ+UgL347v3nv3Rrz8iz4VB]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Projet en gros plan]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
