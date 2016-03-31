@@ -34,7 +34,7 @@ public class Labyrinthe implements Observable {
 			obstaclesIncassables.add(new ObstacleIncassable(size-1, i));
 		}
     	// ajout d'un joueur
-    	heros.add(new Heros(1,1));
+    	heros.add(new Heros(1,1));heros.add(new Heros(2,2));
     	
     }
 
