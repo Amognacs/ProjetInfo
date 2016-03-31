@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
+
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7")
@@ -32,7 +33,8 @@ public class Labyrinthe implements Observable {
 			obstaclesIncassables.add(new ObstacleIncassable(i, size-1));
 			obstaclesIncassables.add(new ObstacleIncassable(size-1, i));
 		}
-    	
+    	// ajout d'un joueur
+    	heros.add(new Heros(10,10));
     	
     }
 
