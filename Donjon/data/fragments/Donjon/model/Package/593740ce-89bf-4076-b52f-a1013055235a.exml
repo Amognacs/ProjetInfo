@@ -2,6 +2,8 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java.awt.event" version="3">
   <DEPS>
     <ID name="java.awt.event" mc="Package" uid="593740ce-89bf-4076-b52f-a1013055235a"/>
+    <COMPID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+    <COMPID name="KeyEvent" mc="Class" uid="65338f68-f881-4b93-8340-17373923b787"/>
     <COMPID name="KeyListener" mc="Interface" uid="52fec760-9510-4863-9783-350632dcb1b7"/>
     <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
   </DEPS>
@@ -20,6 +22,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="KeyListener" mc="Interface" uid="52fec760-9510-4863-9783-350632dcb1b7"/>
+        <COMPID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+        <COMPID name="KeyEvent" mc="Class" uid="65338f68-f881-4b93-8340-17373923b787"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>

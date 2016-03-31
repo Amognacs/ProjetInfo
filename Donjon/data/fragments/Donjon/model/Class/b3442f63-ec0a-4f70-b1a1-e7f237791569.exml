@@ -3,7 +3,9 @@
   <DEPS>
     <ID name="PanMort" mc="Class" uid="b3442f63-ec0a-4f70-b1a1-e7f237791569"/>
     <COMPID name="PanMort (structure_autodiagram)" mc="ClassDiagram" uid="b8a4c3c7-b597-4522-8781-11f27441e4ee"/>
+    <EXTID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
     <EXTID name="ActionListener" mc="Interface" uid="da5c7cb2-b8eb-476e-bd12-07e52b8ae8e8"/>
+    <EXTID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
     <EXTID name="JPanel" mc="Class" uid="a2764ca4-bd55-4875-a78e-1a9353587d72"/>
     <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
   </DEPS>
@@ -36,7 +38,33 @@
             <ATT name="Name"><![CDATA[paintComponent]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="g" mc="Parameter" uid="f841d07d-b796-41eb-8ca7-33fd84f009a4"/>
+                <PID name="PanMort" mc="Class" uid="b3442f63-ec0a-4f70-b1a1-e7f237791569"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[g]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="actionPerformed" mc="Operation" uid="e33df706-b54f-4610-afad-81379fff763e"/>
@@ -51,7 +79,33 @@
             <ATT name="Name"><![CDATA[actionPerformed]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="e" mc="Parameter" uid="384b8d2d-ca5a-40d8-b005-696984d12ad4"/>
+                <PID name="PanMort" mc="Class" uid="b3442f63-ec0a-4f70-b1a1-e7f237791569"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[e]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Parent">

@@ -2,8 +2,8 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java.util" version="3">
   <DEPS>
     <ID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
-    <COMPID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
-    <COMPID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+    <COMPID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <COMPID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
     <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
   </DEPS>
   <OBJECT>
@@ -20,8 +20,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
-        <COMPID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+        <COMPID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+        <COMPID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>

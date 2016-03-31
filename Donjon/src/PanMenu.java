@@ -13,7 +13,8 @@ import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("2589586d-09b3-4d9a-9ebb-320d081647b1")
 public class PanMenu extends JPanel implements ActionListener {
-//private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
+    
     @objid ("e41d49cf-4081-46dc-ae18-8acb269b7ed7")
     private File imageMenu = new File(""); // mettre une image pour le file
 

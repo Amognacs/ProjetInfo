@@ -3,12 +3,13 @@
   <DEPS>
     <ID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
     <COMPID name="Observable (structure_autodiagram)" mc="ClassDiagram" uid="9fee0a71-f479-4c46-8163-c8fd74c4737c"/>
-    <EXTID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+    <EXTID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <EXTID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
     <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
   </DEPS>
   <OBJECT>
     <ID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
-    <PID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">true</ATT>
@@ -19,69 +20,33 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedEnd">
+      <COMP relation="OwnedImport">
         <OBJECT>
-          <ID name="observer" mc="AssociationEnd" uid="052c33ac-cf9d-4345-b766-0e127d618969"/>
+          <ID name="" mc="ElementImport" uid="63610a63-7d70-4328-a97d-acbfe19ed63c"/>
           <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"></ATT>
-            <ATT name="MultiplicityMax"></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[observer]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+            <LINK relation="ImportedElement">
+              <ID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
             </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="AssociationEnd" uid="886740e1-a772-4e59-9ad0-90db9c26db77"/>
-                <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"></ATT>
-                  <ATT name="MultiplicityMax"></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="observer" mc="AssociationEnd" uid="052c33ac-cf9d-4345-b766-0e127d618969"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Association" uid="8df58af9-764f-46aa-8815-9acc33b5ed01"/>
-                      <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Association" uid="8df58af9-764f-46aa-8815-9acc33b5ed01"/>
-            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="25557dbe-8057-4c06-86cb-b9d0398f48c5"/>
+          <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

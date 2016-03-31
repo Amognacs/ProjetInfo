@@ -3,12 +3,19 @@
   <DEPS>
     <ID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
     <COMPID name="Labyrinthe (structure_autodiagram)" mc="ClassDiagram" uid="d52c5ff3-c867-4159-9ba5-f5ca208342c6"/>
-    <EXTID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+    <EXTID name="EnnemiType1" mc="Class" uid="eb4907b3-e0d0-4d12-8768-f21b38d659f2"/>
+    <EXTID name="EnnemiType2" mc="Class" uid="df4820a8-e75f-4468-b94a-8c82061e0478"/>
+    <EXTID name="Heros" mc="Class" uid="28a7fb70-f3cd-4e46-8c46-95191384159e"/>
+    <EXTID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
     <EXTID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+    <EXTID name="ObstacleCassable" mc="Class" uid="0e652fd6-6645-4f40-a255-36bd7125b522"/>
+    <EXTID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
     <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
-    <FOREIGNID name="JavaImport" mc="TagType" uid="003800a8-0000-0155-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
     <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
     <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
     <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
   </DEPS>
   <OBJECT>
@@ -56,15 +63,106 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="size" mc="Parameter" uid="2dbb06ee-8f0c-4afa-86ac-3f7b181795da"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[size]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="433013bc-80a8-4250-b73b-a3780ccf6ddf"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[//creation du labyrinthe
+for(int i = 0; i < size; i++){
+    obstaclesIncassables.add(new ObstacleIncassable(i,0));
+    obstaclesIncassables.add(new ObstacleIncassable(0,i));
+    obstaclesIncassables.add(new ObstacleIncassable(i, size-1));
+    obstaclesIncassables.add(new ObstacleIncassable(size-1, i));
+}
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="size" mc="Attribute" uid="dbf4d2ce-4b7a-4691-87a4-cf67f8f80eec"/>
+          <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[size]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="0e1f018a-e981-4c16-9661-7b5bf3ce8e4d"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="element" mc="AssociationEnd" uid="90632ef4-bf3d-412f-98e7-5ed072d063c6"/>
+          <ID name="heros" mc="AssociationEnd" uid="90632ef4-bf3d-412f-98e7-5ed072d063c6"/>
           <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsComposition</ATT>
@@ -75,15 +173,15 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
-            <ATT name="Visibility">Public</ATT>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[element]]></ATT>
+            <ATT name="Name"><![CDATA[heros]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+              <ID name="Heros" mc="Class" uid="28a7fb70-f3cd-4e46-8c46-95191384159e"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -106,7 +204,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="element" mc="AssociationEnd" uid="90632ef4-bf3d-412f-98e7-5ed072d063c6"/>
+                    <COMPID name="heros" mc="AssociationEnd" uid="90632ef4-bf3d-412f-98e7-5ed072d063c6"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
@@ -139,7 +237,7 @@
                       <ID name="" mc="TagParameter" uid="d1641648-159c-4bd5-8b26-c7d3919acd99"/>
                       <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
                       <ATTRIBUTES>
-                        <ATT name="Value"><![CDATA[List]]></ATT>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -156,7 +254,435 @@
                 <ID name="" mc="Note" uid="0c4264b0-75f4-4f7b-88ef-2c56870a4ba9"/>
                 <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
                 <ATTRIBUTES>
-                  <ATT name="Content"><![CDATA[new ArrayList<Element> ()]]></ATT>
+                  <ATT name="Content"><![CDATA[new ArrayList<Heros> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ennemis1" mc="AssociationEnd" uid="f24b3f76-e462-4bbb-933c-10bbb6b15473"/>
+          <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[ennemis1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="EnnemiType1" mc="Class" uid="eb4907b3-e0d0-4d12-8768-f21b38d659f2"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="dc0e14ee-650d-45c4-96e9-5aa3742f5e34"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="ennemis1" mc="AssociationEnd" uid="f24b3f76-e462-4bbb-933c-10bbb6b15473"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="c372172e-6174-419a-af0c-8c0e0f195e8e"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="c372172e-6174-419a-af0c-8c0e0f195e8e"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="ac574e0a-2e7c-4d0e-abd6-ac44a65c34a0"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="136418fb-c734-4042-96b5-1827e4ea0d53"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="b19d77e3-a022-46f1-abee-d7816e82806b"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<EnnemiType1> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ennemis2" mc="AssociationEnd" uid="467e2e10-6bf3-4464-b2f0-6f98b27bca08"/>
+          <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[ennemis2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="EnnemiType2" mc="Class" uid="df4820a8-e75f-4468-b94a-8c82061e0478"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="ed472076-6e2f-44b4-859d-77eb8997e417"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="ennemis2" mc="AssociationEnd" uid="467e2e10-6bf3-4464-b2f0-6f98b27bca08"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="a17284af-7bf5-43b2-9a0f-8ddf9681f0aa"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="a17284af-7bf5-43b2-9a0f-8ddf9681f0aa"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="b77d886f-fb12-4f5b-9bb1-aa90dcf8c4ea"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="85dd7692-1a18-4028-a835-ebffae5c1010"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="bfa39732-a6f5-4d6a-a43c-8c2e3127a1de"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<EnnemiType2> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="obstaclesIncassables" mc="AssociationEnd" uid="4e277cdf-5e4a-4abd-b202-ec931e7eb9d3"/>
+          <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[obstaclesIncassables]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="ObstacleIncassable" mc="Class" uid="ee298222-6024-449b-ad99-0040864512aa"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="804988d4-8a9b-45be-8c0e-c71b88cefc1b"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="obstaclesIncassables" mc="AssociationEnd" uid="4e277cdf-5e4a-4abd-b202-ec931e7eb9d3"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="0038a25e-459b-495e-838d-4131ff7390f7"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="0038a25e-459b-495e-838d-4131ff7390f7"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="c44c36ed-0b22-4a14-8e0a-e5fe5e47bddd"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="c10708c6-767b-41ab-aafd-dd3106795400"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="1595537d-58cc-4274-b532-440acd6c52ab"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<ObstacleIncassable>()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="obstaclesCassables" mc="AssociationEnd" uid="646e0ede-b60a-452e-87ea-1d5567722bda"/>
+          <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[obstaclesCassables]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="ObstacleCassable" mc="Class" uid="0e652fd6-6645-4f40-a255-36bd7125b522"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="38db33de-fd8c-48ea-a0ec-3b47af809316"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="obstaclesCassables" mc="AssociationEnd" uid="646e0ede-b60a-452e-87ea-1d5567722bda"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="3d83cda7-9a3e-4079-a610-97fd4afbb12e"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="3d83cda7-9a3e-4079-a610-97fd4afbb12e"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="39263942-307b-4e2f-8a96-493f8def9b2c"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="45004b29-f323-4cc9-952b-b88db6148fa8"/>
+                      <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="2aa40dbb-9ad3-40e5-95d7-9232b4af408f"/>
+                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<ObstacleCassable>()]]></ATT>
                   <ATT name="MimeType"></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -186,44 +712,25 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <LINK relation="Extension">
-        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
-      </LINK>
-      <COMP relation="Tag">
+      <COMP relation="OwnedImport">
         <OBJECT>
-          <ID name="" mc="TaggedValue" uid="936db81d-c53a-4a00-b0c1-bf2a7b1ca32d"/>
+          <ID name="" mc="ElementImport" uid="c7b78d68-6302-43a6-ae46-c55dd56162e5"/>
           <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
           <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="Actual">
-              <OBJECT>
-                <ID name="" mc="TagParameter" uid="84546ff4-d668-405b-96e8-de13d9253fa8"/>
-                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
-                <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[java.util.ArrayList]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="" mc="TagParameter" uid="92347706-8c76-4ec5-b8ad-78c552e9df66"/>
-                <PID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
-                <ATTRIBUTES>
-                  <ATT name="Value"><![CDATA[java.util.List]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Definition">
-              <FOREIGNID name="JavaImport" mc="TagType" uid="003800a8-0000-0155-0000-000000000000"/>
+            <LINK relation="ImportedElement">
+              <ID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
       <COMP relation="Product">
         <COMPID name="Labyrinthe (structure_autodiagram)" mc="ClassDiagram" uid="d52c5ff3-c867-4159-9ba5-f5ca208342c6"/>
       </COMP>

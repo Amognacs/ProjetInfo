@@ -17,7 +17,8 @@ public class Heros extends Personnage {
     }
 
     @objid ("eb678f04-468d-439c-b60b-3e5bbb408888")
-    public Heros() {
+    public Heros(int X, int Y) {
+    	super(X, Y);
     }
 
     @objid ("bfc82f74-0437-457f-9389-43388a4aaf73")

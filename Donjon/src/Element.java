@@ -8,11 +8,29 @@ public abstract class Element {
     @objid ("7e45c7da-1127-44f6-884d-0604fac27429")
     private int coordY;
 
-    @objid ("25e044d3-7c3f-4c18-8571-2a23c5ea4b5e")
-    private int viesssss;
+    public Element(int X, int Y){
+    	this.setCoordX(X);
+    	this.setCoordY(Y);
+    }
 
+    public int getCoordX(){
+    	return this.coordX ;
+    }
+    
+    public int getCoordY(){
+    	return this.coordY ;
+    }
+    
     @objid ("f0166faa-193c-44a1-bb8c-4e956e069330")
     public void positionnementInitial() {
     }
+
+	public void setCoordX(int coordX) {
+		this.coordX = coordX;
+	}
+
+	public void setCoordY(int coordY) {
+		this.coordY = coordY;
+	}
 
 }

@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observer;
+import java.awt.Color;
+import java.io.IOException;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1")
@@ -17,4 +19,17 @@ public class Vue implements Observer {
     @objid ("c39e537b-9467-43f1-a5bb-d1b39126065b")
     public List<Labyrinthe> observableReel = new ArrayList<Labyrinthe> ();
 
+    public static void main(String[] args) {
+		boolean boolBoucleMenu = true;
+        Fenetre fenetre1 = new Fenetre();
+        while (boolBoucleMenu){
+            fenetre1.creationPanFenetre();
+            boolean boolContinuer = true;
+            while (boolContinuer){
+                if (fenetre1.getContinuerJeu()){
+                    boolContinuer = false;                   
+                }
+            }
+        }
+    }
 }

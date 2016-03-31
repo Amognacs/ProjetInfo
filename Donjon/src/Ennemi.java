@@ -11,7 +11,8 @@ public class Ennemi extends Personnage {
     }
 
     @objid ("80e8906f-bf49-4ceb-9387-e2e7734baa34")
-    public Ennemi() {
+    public Ennemi(int X, int Y) {
+    	super(X, Y);
     }
 
     @objid ("bb13245c-7f6f-427d-bea6-3c345db021f3")

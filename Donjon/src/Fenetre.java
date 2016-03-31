@@ -1,10 +1,18 @@
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import javax.swing.JFrame;
+
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("e75aa545-a3eb-47b8-8a47-cb4fcc6864d7")
 public class Fenetre extends JFrame implements ActionListener {
-    @objid ("3fb630c0-6922-4dc0-b153-9ea647e3b45b")
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@objid ("3fb630c0-6922-4dc0-b153-9ea647e3b45b")
     private boolean boolContinueMenu;
 
     @objid ("afa78c12-7a23-42d3-b9f0-a3eea03d67fa")
@@ -59,4 +67,8 @@ public class Fenetre extends JFrame implements ActionListener {
         return boolContinueGame;
     }
 
+    public void actionPerformed(ActionEvent e){
+    	
+    }
+    
 }

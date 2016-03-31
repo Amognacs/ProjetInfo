@@ -7,7 +7,7 @@
   </DEPS>
   <OBJECT>
     <ID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
-    <PID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">true</ATT>

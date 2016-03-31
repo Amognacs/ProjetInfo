@@ -3,9 +3,12 @@
   <DEPS>
     <ID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
     <COMPID name="Sac (structure_autodiagram)" mc="ClassDiagram" uid="81ca0c32-02a5-4032-b700-b4ecab4b244a"/>
+    <EXTID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
     <EXTID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
     <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
     <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
   </DEPS>
   <OBJECT>
     <ID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
@@ -80,7 +83,7 @@
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAggregation</ATT>
             <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
@@ -136,6 +139,65 @@
             <COMP relation="Association">
               <COMPID name="" mc="Association" uid="bc3269cb-6fb3-4b24-a77e-67db6ec329c5"/>
             </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="91d61b5c-f812-49aa-b5fe-d5be1b9e9e77"/>
+                <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="d5df401f-54b0-4d05-8992-b3b1a3a39548"/>
+                      <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[List]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="6b145180-5b03-4d57-aa61-75934bec2ffa"/>
+                <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<Equipement> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="9fb68994-cf82-48fb-954e-1a443fc11f2a"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
