@@ -1,0 +1,556 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Fenetre" version="3">
+  <DEPS>
+    <ID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+    <COMPID name="Fenetre (structure_autodiagram)" mc="ClassDiagram" uid="e002fda5-9cca-4116-a1d7-dba23c2e7ac9"/>
+    <EXTID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+    <EXTID name="ActionListener" mc="Interface" uid="da5c7cb2-b8eb-476e-bd12-07e52b8ae8e8"/>
+    <EXTID name="JFrame" mc="Class" uid="57d412f4-14ac-4faa-9fcf-98d4c533b22c"/>
+    <EXTID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+    <EXTID name="PanRegle" mc="Class" uid="1ad4a709-d6ab-4e3d-879a-c7d244c63ab8"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="JavaFinal" mc="TagType" uid="003800a8-0000-0161-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+    <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+    <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="long" mc="DataType" uid="00000004-0000-0011-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Fenetre]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="Fenetre" mc="Operation" uid="833cd76c-0985-4741-99b9-e729d1aecadd"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Fenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="eea721e0-4946-4e8a-93e7-ea88b69db380"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[this.setTitle("DONJON");
+this.setSize(855, 875);
+this.setLocationRelativeTo(null);
+this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+this.setResizable(false);
+this.setAlwaysOnTop(false);
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="creationPanFenetre" mc="Operation" uid="faba7c01-56cd-48df-a382-968a22e005fa"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[creationPanFenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="67fa572a-40d6-40af-a2c6-510b4533582f"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[panMenu = new PanMenu();
+panRegle = new PanRegle();
+
+this.setContentPane(panMenu);
+this.setVisible(true);
+boolContinueGame = false;
+
+this.boolContinueMenu = true;
+while (boolContinueMenu){
+    if (panMenu.getEtatFenetre() == 1){
+        this.boolContinueMenu = false;
+    }
+    if (panMenu.getEtatFenetre() == 2){
+        this.setContentPane(panRegle);
+        this.setVisible(true);
+        panMenu.setEtatFenetre(0);
+    }
+    if (panRegle.getEtatFenetre() == 3){
+        this.setContentPane(panMenu);
+        this.setVisible(true);
+        panRegle.setEtatFenetre(0);
+    }
+}
+boolContinueGame = true;
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="getContinuerJeu" mc="Operation" uid="75fe427b-3844-48d5-8da6-c04b358076c1"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getContinuerJeu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Return">
+              <OBJECT>
+                <ID name="" mc="Parameter" uid="6fd5c951-5786-4017-9330-e93fab629699"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="362c8304-01e9-4740-8fe5-5940903efa17"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[return boolContinueGame;]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="actionPerformed" mc="Operation" uid="af76c283-bd3e-4e5a-95f7-6c0e3eadd74f"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[actionPerformed]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="e" mc="Parameter" uid="8c5fcfd9-6528-4bb0-9597-ca1c1ae84128"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[e]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="boolContinueMenu" mc="Attribute" uid="3fb630c0-6922-4dc0-b153-9ea647e3b45b"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[boolContinueMenu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="4d99ec0c-bd92-4bf7-96fb-eeb77e851812"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="boolContinueGame" mc="Attribute" uid="afa78c12-7a23-42d3-b9f0-a3eea03d67fa"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[boolContinueGame]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="d3db380b-0457-4bdf-9b40-631994821881"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="serialVersionUID" mc="Attribute" uid="31ec6fc2-77f3-43a1-97a8-aa7334e1e696"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[1L]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[serialVersionUID]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="long" mc="DataType" uid="00000004-0000-0011-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="c5627ec7-af6c-4986-81c0-1a3483adff0e"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaFinal" mc="TagType" uid="003800a8-0000-0161-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="panRegle" mc="AssociationEnd" uid="837c130d-cc87-4605-a84d-afc325e11be3"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[panRegle]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="PanRegle" mc="Class" uid="1ad4a709-d6ab-4e3d-879a-c7d244c63ab8"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="4f2c8592-0871-4bab-8b65-5ea8aaf5dd88"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="panRegle" mc="AssociationEnd" uid="837c130d-cc87-4605-a84d-afc325e11be3"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="5b829114-a01d-496c-87e0-9369375b873a"/>
+                      <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="5b829114-a01d-496c-87e0-9369375b873a"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="af970bb8-60e3-4c24-978e-25e5e1d0d23f"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="panMenu" mc="AssociationEnd" uid="73eb4e9b-0068-4ad0-8e86-e77424fd4370"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[panMenu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="e8e2d4e2-b6ba-4103-9589-739e2b372b26"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="panMenu" mc="AssociationEnd" uid="73eb4e9b-0068-4ad0-8e86-e77424fd4370"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="974398eb-06b8-43f6-9e2c-8f858ff633dc"/>
+                      <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="974398eb-06b8-43f6-9e2c-8f858ff633dc"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="7b0ae10f-e61e-4475-b901-c8ceaea0871f"/>
+                <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="23cd5898-751f-419d-922d-853ef2533a27"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="JFrame" mc="Class" uid="57d412f4-14ac-4faa-9fcf-98d4c533b22c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="InterfaceRealization" uid="597353dc-d291-40b7-9d7e-4526774e9ae7"/>
+          <PID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="ActionListener" mc="Interface" uid="da5c7cb2-b8eb-476e-bd12-07e52b8ae8e8"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Fenetre (structure_autodiagram)" mc="ClassDiagram" uid="e002fda5-9cca-4116-a1d7-dba23c2e7ac9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

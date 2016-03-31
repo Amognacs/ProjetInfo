@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Observable" version="3">
+  <DEPS>
+    <ID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+    <COMPID name="Observable (structure_autodiagram)" mc="ClassDiagram" uid="9fee0a71-f479-4c46-8163-c8fd74c4737c"/>
+    <EXTID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <EXTID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+    <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Observable]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="63610a63-7d70-4328-a97d-acbfe19ed63c"/>
+          <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="25557dbe-8057-4c06-86cb-b9d0398f48c5"/>
+          <PID name="Observable" mc="Interface" uid="7f9410c7-932f-4e72-b9f6-7178979feb6d"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Observable (structure_autodiagram)" mc="ClassDiagram" uid="9fee0a71-f479-4c46-8163-c8fd74c4737c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Argent (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="Argent (structure_autodiagram)" mc="ClassDiagram" uid="157a4fda-22ec-4f14-98a7-6492a2a3e509"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Argent (structure_autodiagram)" mc="ClassDiagram" uid="157a4fda-22ec-4f14-98a7-6492a2a3e509"/>
+    <PID name="Argent" mc="Class" uid="c478ba58-509e-4391-9b92-0e724b78beba"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Argent (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

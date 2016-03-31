@@ -1,0 +1,317 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Armurie" version="3">
+  <DEPS>
+    <ID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+    <COMPID name="Armurie (structure_autodiagram)" mc="ClassDiagram" uid="67152d0a-7dd3-4200-92ce-6849581e2592"/>
+    <EXTID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="JavaGetter" mc="Stereotype" uid="01ec23a8-0000-012b-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+    <FOREIGNID name="JavaSetter" mc="Stereotype" uid="01ec23a8-0000-0130-0000-000000000000"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Armurie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="getDefense" mc="Operation" uid="7df8055a-e2b7-4a33-9fcf-24683a780ef7"/>
+          <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">PackageVisibility</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getDefense]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Return">
+              <OBJECT>
+                <ID name="" mc="Parameter" uid="9605aac7-9509-4ceb-b9c7-4834d25c0b83"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Dependency" uid="9edf52c0-6adf-44d2-a7e5-73a37287df58"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="defense" mc="Attribute" uid="5beabf7b-b84f-4a2f-bcf3-bc170405b2c6"/>
+                      <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="JavaGetter" mc="Stereotype" uid="01ec23a8-0000-012b-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="2943f6d2-abe9-402b-b1ab-806ef76a0edc"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[// Automatically generated method. Please delete this comment before entering specific code.]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Note" uid="51c1240a-7223-4989-9dbb-e37dc57ce860"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[return this.defense;]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="setDefense" mc="Operation" uid="9144b6a5-b9e1-4006-9f1b-3b10fe378160"/>
+          <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">PackageVisibility</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[setDefense]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="value" mc="Parameter" uid="6dc4dcbd-5830-4a5d-a646-28ccfefe33b0"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[value]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Dependency" uid="91a7e35a-9732-4a92-8e7c-13d8f37663a2"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="defense" mc="Attribute" uid="5beabf7b-b84f-4a2f-bcf3-bc170405b2c6"/>
+                      <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <FOREIGNID name="JavaSetter" mc="Stereotype" uid="01ec23a8-0000-0130-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="6887e493-e780-4bea-84c4-416da7a04858"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[// Automatically generated method. Please delete this comment before entering specific code.
+this.defense = value;
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="defense" mc="Attribute" uid="5beabf7b-b84f-4a2f-bcf3-bc170405b2c6"/>
+          <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[defense]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="deb25165-1844-41d0-8ebb-2347223dcf25"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="attaque" mc="Attribute" uid="302adeee-cc09-49d9-b5b4-0ece862e6ea0"/>
+          <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[attaque]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="7195315e-4634-4241-9937-f8fb87117980"/>
+                <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="3b3a8f79-1458-4eea-ad86-fb06ef289f6a"/>
+          <PID name="Armurie" mc="Class" uid="c058189b-19af-4781-b26b-a184788073b9"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Armurie (structure_autodiagram)" mc="ClassDiagram" uid="67152d0a-7dd3-4200-92ce-6849581e2592"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

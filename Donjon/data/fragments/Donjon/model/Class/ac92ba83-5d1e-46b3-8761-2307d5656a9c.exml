@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sac" version="3">
+  <DEPS>
+    <ID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+    <COMPID name="Sac (structure_autodiagram)" mc="ClassDiagram" uid="81ca0c32-02a5-4032-b700-b4ecab4b244a"/>
+    <EXTID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <EXTID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+    <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sac]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="Sac" mc="Operation" uid="7b5564a5-bc3a-4991-ab31-9896f8235c95"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Sac]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="rajoutEquipement" mc="Operation" uid="bbce9e47-ec68-442a-ab2d-35f26e884790"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[rajoutEquipement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="enleveEquipement" mc="Operation" uid="a0c7b313-e47d-47b8-81f9-090cda9631fb"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[enleveEquipement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="equipement" mc="AssociationEnd" uid="59102f8e-8e6f-4842-ae8d-f1c91eb9c60d"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAggregation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[equipement]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Equipement" mc="Class" uid="2dcf367c-c329-4ba2-ac90-a54e749d5b43"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="8e98e0e8-d606-491f-8e5c-e4d8f2f63e66"/>
+                <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="equipement" mc="AssociationEnd" uid="59102f8e-8e6f-4842-ae8d-f1c91eb9c60d"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="bc3269cb-6fb3-4b24-a77e-67db6ec329c5"/>
+                      <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="bc3269cb-6fb3-4b24-a77e-67db6ec329c5"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="91d61b5c-f812-49aa-b5fe-d5be1b9e9e77"/>
+                <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="d5df401f-54b0-4d05-8992-b3b1a3a39548"/>
+                      <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[List]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="6b145180-5b03-4d57-aa61-75934bec2ffa"/>
+                <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<Equipement> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="9fb68994-cf82-48fb-954e-1a443fc11f2a"/>
+          <PID name="Sac" mc="Class" uid="ac92ba83-5d1e-46b3-8761-2307d5656a9c"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Sac (structure_autodiagram)" mc="ClassDiagram" uid="81ca0c32-02a5-4032-b700-b4ecab4b244a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

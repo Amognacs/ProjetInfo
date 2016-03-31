@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Observer" version="3">
+  <DEPS>
+    <ID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+    <COMPID name="Observer (structure_autodiagram)" mc="ClassDiagram" uid="7c5cdc26-31fc-445e-95ed-95bb40f1a582"/>
+    <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Observer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaInterface" mc="Stereotype" uid="01ec23a8-0000-0267-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Observer (structure_autodiagram)" mc="ClassDiagram" uid="7c5cdc26-31fc-445e-95ed-95bb40f1a582"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

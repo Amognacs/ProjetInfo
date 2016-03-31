@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Rapidite" version="3">
+  <DEPS>
+    <ID name="Rapidite" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+    <COMPID name="Rapidite (structure_autodiagram)" mc="ClassDiagram" uid="ea303121-7af8-4d44-b278-f285aecac984"/>
+    <COMPID name="Rapidité (structure_autodiagram)" mc="ClassDiagram" uid="7b8980fa-dbeb-48ea-abcc-fedc730e8f63"/>
+    <EXTID name="Potion" mc="Class" uid="0689024e-3764-4e60-98fb-a4cda64e679a"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Rapidite" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Rapidite]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="343704b3-330e-4a06-9909-5ed910d8a2fe"/>
+          <PID name="Rapidite" mc="Class" uid="0eead171-5e92-4f9c-ad03-25dedf36b104"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Potion" mc="Class" uid="0689024e-3764-4e60-98fb-a4cda64e679a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Rapidité (structure_autodiagram)" mc="ClassDiagram" uid="7b8980fa-dbeb-48ea-abcc-fedc730e8f63"/>
+        <COMPID name="Rapidite (structure_autodiagram)" mc="ClassDiagram" uid="ea303121-7af8-4d44-b278-f285aecac984"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

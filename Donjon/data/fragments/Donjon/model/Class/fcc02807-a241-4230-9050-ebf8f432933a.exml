@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="File" version="3">
+  <DEPS>
+    <ID name="File" mc="Class" uid="fcc02807-a241-4230-9050-ebf8f432933a"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaExtern" mc="TagType" uid="003800a8-0000-0157-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="File" mc="Class" uid="fcc02807-a241-4230-9050-ebf8f432933a"/>
+    <PID name="io" mc="Package" uid="4c7c17b3-1813-4d20-b8d2-6ca07391ef4d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[File]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="bb8c896b-dc8e-4c4b-b349-37f018358299"/>
+          <PID name="File" mc="Class" uid="fcc02807-a241-4230-9050-ebf8f432933a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Definition">
+              <FOREIGNID name="JavaExtern" mc="TagType" uid="003800a8-0000-0157-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

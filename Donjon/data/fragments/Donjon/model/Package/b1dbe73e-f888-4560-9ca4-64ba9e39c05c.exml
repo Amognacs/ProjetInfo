@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="awt" version="3">
+  <DEPS>
+    <ID name="awt" mc="Package" uid="b1dbe73e-f888-4560-9ca4-64ba9e39c05c"/>
+    <COMPID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+    <COMPID name="Font" mc="Class" uid="01b716b7-d4e8-408c-81f8-af2a357d0a25"/>
+    <COMPID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
+    <COMPID name="Image" mc="Class" uid="2976dd56-df0f-4a0e-b752-49babb34d7d9"/>
+    <FOREIGNID name="JavaExtern" mc="TagType" uid="003800a8-0000-0197-0000-000000000000"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="awt" mc="Package" uid="b1dbe73e-f888-4560-9ca4-64ba9e39c05c"/>
+    <PID name="java" mc="Package" uid="67d090dd-42e9-4f2b-850b-212404bcfa6f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[awt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+        <COMPID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
+        <COMPID name="Font" mc="Class" uid="01b716b7-d4e8-408c-81f8-af2a357d0a25"/>
+        <COMPID name="Image" mc="Class" uid="2976dd56-df0f-4a0e-b752-49babb34d7d9"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="5cae01aa-049d-4c80-9803-b4651a3c6bcd"/>
+          <PID name="awt" mc="Package" uid="b1dbe73e-f888-4560-9ca4-64ba9e39c05c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Definition">
+              <FOREIGNID name="JavaExtern" mc="TagType" uid="003800a8-0000-0197-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

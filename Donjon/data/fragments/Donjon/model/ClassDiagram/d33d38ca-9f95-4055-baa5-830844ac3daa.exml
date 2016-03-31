@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Potion (structure_autodiagram)" version="3">
+  <DEPS>
+    <ID name="Potion (structure_autodiagram)" mc="ClassDiagram" uid="d33d38ca-9f95-4055-baa5-830844ac3daa"/>
+    <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Potion (structure_autodiagram)" mc="ClassDiagram" uid="d33d38ca-9f95-4055-baa5-830844ac3daa"/>
+    <PID name="Potion" mc="Class" uid="0689024e-3764-4e60-98fb-a4cda64e679a"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Potion (structure_autodiagram)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="AutoDiagram" mc="Stereotype" uid="8fb43b1c-7819-11e1-a4f1-002564c97630"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

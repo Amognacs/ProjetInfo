@@ -1,0 +1,862 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PanMenu" version="3">
+  <DEPS>
+    <ID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+    <COMPID name="PanMenu (structure_autodiagram)" mc="ClassDiagram" uid="24e2f15e-df88-434f-bbfb-df5f2485011f"/>
+    <EXTID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+    <EXTID name="ActionListener" mc="Interface" uid="da5c7cb2-b8eb-476e-bd12-07e52b8ae8e8"/>
+    <EXTID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+    <EXTID name="File" mc="Class" uid="fcc02807-a241-4230-9050-ebf8f432933a"/>
+    <EXTID name="Font" mc="Class" uid="01b716b7-d4e8-408c-81f8-af2a357d0a25"/>
+    <EXTID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
+    <EXTID name="IOException" mc="Class" uid="ff2c796b-4811-4825-a536-097332bc758f"/>
+    <EXTID name="Image" mc="Class" uid="2976dd56-df0f-4a0e-b752-49babb34d7d9"/>
+    <EXTID name="ImageIO" mc="Class" uid="d9ef0fcb-594f-4a7c-9b11-dad0cb37f78b"/>
+    <EXTID name="JButton" mc="Class" uid="5646ac96-d101-45f6-bd5d-e4b3a1f637bc"/>
+    <EXTID name="JPanel" mc="Class" uid="a2764ca4-bd55-4875-a78e-1a9353587d72"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="JavaFinal" mc="TagType" uid="003800a8-0000-0161-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValueComment" mc="NoteType" uid="eb8c06dc-0000-0fac-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+    <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+    <FOREIGNID name="long" mc="DataType" uid="00000004-0000-0011-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PanMenu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="paintComponent" mc="Operation" uid="1662b7d0-d1c2-4300-a44c-96976c84b35a"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[paintComponent]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="g" mc="Parameter" uid="eb7da896-9af2-4e0b-8e90-c6620e92fb99"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[g]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="Graphics" mc="Class" uid="07fd8380-8758-40ea-a4ec-ee1fd130ecd3"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="937c55fb-7fb5-446f-b0b6-a5dc7051a3b3"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[g.drawImage(image1,0,0,this.getWidth(),this.getHeight(), this);]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="actionPerformed" mc="Operation" uid="c3e78b09-ac5b-4a04-9f85-8b7a3c7f7269"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[actionPerformed]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="e" mc="Parameter" uid="548ccc7a-4146-4117-80a6-8d4b44ba8ae2"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[e]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="ActionEvent" mc="Class" uid="34992d83-f94e-4492-9b81-8e891c5b4769"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="e39aa982-3fc7-4d37-80cc-9222eeaf3fec"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[if(e.getSource() == boutonCommencer){
+    this.etatFenetre = 1;
+}
+if(e.getSource() == boutonRegleJeu){
+    this.etatFenetre = 2;
+}
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PanMenu" mc="Operation" uid="e5bbd812-9e86-443c-8f14-f1225cc676fb"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[PanMenu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Extension">
+              <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="b8b3f6ba-4367-4ec4-8725-caad572e0627"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[setLayout(null);
+boutonCommencer.setBounds(470, 0, 380, 40);
+add(boutonCommencer);
+boutonCommencer.addActionListener(this);
+ 
+boutonRegleJeu.setBounds(530, 50, 275, 40);
+add(boutonRegleJeu);
+boutonRegleJeu.addActionListener(this);
+ 
+Font f = new Font("Times New Roman", Font.BOLD, 25);
+boutonCommencer.setFont(f);
+boutonCommencer.setForeground(Color.RED);
+boutonCommencer.setBackground(Color.WHITE);
+ 
+Font f1 = new Font("Times New Roman", Font.ITALIC, 30);
+boutonRegleJeu.setFont(f1);
+boutonRegleJeu.setForeground(Color.BLACK);
+boutonRegleJeu.setBackground(Color.WHITE);
+ 
+try{
+    this.image1 = ImageIO.read(imageMenu);  
+}
+catch (IOException e) {
+    e.printStackTrace();
+}
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="getEtatFenetre" mc="Operation" uid="b30f8bdd-f789-480d-9698-5ea830af341c"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[getEtatFenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Return">
+              <OBJECT>
+                <ID name="" mc="Parameter" uid="9e057881-e240-43ca-9c4d-25b451716416"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="7a082e38-3a6f-43eb-8c90-7e644919c031"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[return etatFenetre;]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaReturned" mc="NoteType" uid="003800a8-0000-0190-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="setEtatFenetre" mc="Operation" uid="168c97d9-6c55-4973-8dbf-e31e9c32e15a"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[setEtatFenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="etat" mc="Parameter" uid="bde416be-527d-46c1-8483-4d1146d3641e"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[etat]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="5bb8ba51-9f27-4c6d-a717-93dd7769ea8d"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[this.etatFenetre=etat;]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="etatFenetre" mc="Attribute" uid="b1f995b7-a5b6-43da-aa41-cfc770c5a1d3"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[etatFenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="37e69cdf-60ec-4e21-b269-648b87c41840"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="serialVersionUID" mc="Attribute" uid="f964d8ca-24e3-4545-bc04-e66308ab600d"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"><![CDATA[1L]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[serialVersionUID]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="long" mc="DataType" uid="00000004-0000-0011-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="597e5126-a8a0-4b99-8faa-c108cc57a6a1"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaFinal" mc="TagType" uid="003800a8-0000-0161-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="imageMenu" mc="AssociationEnd" uid="3b59d62e-80f2-4c8a-b81a-6bb7f502a9d5"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[imageMenu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="File" mc="Class" uid="fcc02807-a241-4230-9050-ebf8f432933a"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="ccd7d083-1447-4ee6-bd8a-a4e55d9d2b59"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="imageMenu" mc="AssociationEnd" uid="3b59d62e-80f2-4c8a-b81a-6bb7f502a9d5"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="4c480ef5-bbd3-4577-b0cf-f5488832b35a"/>
+                      <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="4c480ef5-bbd3-4577-b0cf-f5488832b35a"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="1f450dcf-c20e-435a-a769-e0c7d5dd2479"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[mettre une image pour le file]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValueComment" mc="NoteType" uid="eb8c06dc-0000-0fac-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Note" uid="470de2a4-0118-4fb3-b09a-a8834a2e6692"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new File("")]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="image1" mc="AssociationEnd" uid="4e406456-dccd-4974-8b66-79f61e4f95a6"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[image1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Image" mc="Class" uid="2976dd56-df0f-4a0e-b752-49babb34d7d9"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="49e79f3d-4866-4129-a606-5061abd29abc"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="image1" mc="AssociationEnd" uid="4e406456-dccd-4974-8b66-79f61e4f95a6"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="621d2611-a9ad-47b1-a217-581e343681a8"/>
+                      <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="621d2611-a9ad-47b1-a217-581e343681a8"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="acb92ea1-78e9-4a5d-b7ca-3ee280a56aec"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="boutonCommencer" mc="AssociationEnd" uid="3d2a54d2-fcb8-4e0b-a320-a16a8c68b616"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[boutonCommencer]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="JButton" mc="Class" uid="5646ac96-d101-45f6-bd5d-e4b3a1f637bc"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="3b501fa6-0d60-4cbf-b102-787fa12c02d2"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="boutonCommencer" mc="AssociationEnd" uid="3d2a54d2-fcb8-4e0b-a320-a16a8c68b616"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="0cda6522-e35d-4a9f-aa37-6bf7d6ee386e"/>
+                      <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="0cda6522-e35d-4a9f-aa37-6bf7d6ee386e"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="265370d0-df2c-48c4-8ad3-a031373f1cd8"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new JButton("COMMENCER UNE PARTIE")]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="boutonRegleJeu" mc="AssociationEnd" uid="2d1826e6-2cef-4dd3-958d-7189d69088da"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[boutonRegleJeu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="JButton" mc="Class" uid="5646ac96-d101-45f6-bd5d-e4b3a1f637bc"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="6ce79c3f-78fb-4fc0-993f-70afbe9886ee"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="boutonRegleJeu" mc="AssociationEnd" uid="2d1826e6-2cef-4dd3-958d-7189d69088da"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="d2993502-6397-4932-bd34-6f3289e1975e"/>
+                      <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="d2993502-6397-4932-bd34-6f3289e1975e"/>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="e1a1348d-f587-4d13-a947-02e31847b1cf"/>
+                <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new JButton("REGLES DU JEU")]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="a5dff66f-8137-4a7a-baef-0d5aec326bd5"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="JPanel" mc="Class" uid="a2764ca4-bd55-4875-a78e-1a9353587d72"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="InterfaceRealization" uid="1e7b131a-c404-4cc0-b0fa-ce69d2082689"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="ActionListener" mc="Interface" uid="da5c7cb2-b8eb-476e-bd12-07e52b8ae8e8"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="37596f6f-2a0c-4e89-8e82-883843e90f0c"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="89d932da-583c-4601-ab89-0864d021ebe5"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Font" mc="Class" uid="01b716b7-d4e8-408c-81f8-af2a357d0a25"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="748a26a7-e383-4387-816e-a634999ddfcb"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="IOException" mc="Class" uid="ff2c796b-4811-4825-a536-097332bc758f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="3c07e122-7358-46ea-8cee-8a74c70ca30d"/>
+          <PID name="PanMenu" mc="Class" uid="2589586d-09b3-4d9a-9ebb-320d081647b1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="ImageIO" mc="Class" uid="d9ef0fcb-594f-4a7c-9b11-dad0cb37f78b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="PanMenu (structure_autodiagram)" mc="ClassDiagram" uid="24e2f15e-df88-434f-bbfb-df5f2485011f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

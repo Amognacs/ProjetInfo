@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java.util" version="3">
+  <DEPS>
+    <ID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+    <COMPID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <COMPID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="java.util" mc="Package" uid="2159f457-2c52-4e1d-a928-03e08f3f2a0e"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java.util]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+        <COMPID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

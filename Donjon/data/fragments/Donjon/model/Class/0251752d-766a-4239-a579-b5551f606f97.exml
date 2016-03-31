@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Jeu" version="3">
+  <DEPS>
+    <ID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+    <COMPID name="Jeu (structure_autodiagram)" mc="ClassDiagram" uid="367ea4f9-5396-4b2d-bc3c-345300501986"/>
+    <EXTID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+    <EXTID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+    <EXTID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+    <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Jeu]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="Jeu" mc="Operation" uid="1660d0c0-411c-492f-946e-1981fbd42304"/>
+          <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[Jeu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="vue" mc="Parameter" uid="3bc607f9-de00-4bd0-8701-b0a1fbdd9b9c"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[vue]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="cc0580c2-9bac-45d0-b80d-435687f61d33"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[this.vue = vue;]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="labyrinthe" mc="AssociationEnd" uid="7583d0db-c0d2-4361-ac7d-53adf43c9d48"/>
+          <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[labyrinthe]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="4fd63602-bb1c-48f1-85cc-007fefb79832"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="labyrinthe" mc="AssociationEnd" uid="7583d0db-c0d2-4361-ac7d-53adf43c9d48"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="240d063f-cea7-47cd-b146-a55288ce555b"/>
+                      <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="240d063f-cea7-47cd-b146-a55288ce555b"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="2a742a45-3b1c-4393-a88c-fd8a15bb8c03"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="d3796b7f-5aa9-43a4-88a3-2ea0c17ca041"/>
+                      <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[ArrayList]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="14a3a9e3-ba92-4f75-98a5-e56b13faab9a"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<Labyrinthe> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="vue" mc="AssociationEnd" uid="afd227f8-fdef-49f2-96da-2c3c95289dde"/>
+          <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[vue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="ed175e3a-3b13-449b-ba95-159f95f519f5"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="vue" mc="AssociationEnd" uid="afd227f8-fdef-49f2-96da-2c3c95289dde"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="c9ae393d-6a61-42cd-a981-79067f997c9c"/>
+                      <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="c9ae393d-6a61-42cd-a981-79067f997c9c"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="219ebef1-2578-4da0-ad37-3925942149bc"/>
+                <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="cded19aa-e3af-4e73-aeaa-54777ed8d0dd"/>
+          <PID name="Jeu" mc="Class" uid="0251752d-766a-4239-a579-b5551f606f97"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="List" mc="Interface" uid="17599902-b16b-47c1-96e9-235d98ffbcf3"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Jeu (structure_autodiagram)" mc="ClassDiagram" uid="367ea4f9-5396-4b2d-bc3c-345300501986"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

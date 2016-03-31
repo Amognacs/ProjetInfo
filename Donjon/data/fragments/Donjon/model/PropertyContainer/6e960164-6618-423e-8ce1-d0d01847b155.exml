@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Donjon" version="3">
+  <DEPS>
+    <ID name="Donjon" mc="PropertyContainer" uid="6e960164-6618-423e-8ce1-d0d01847b155"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Donjon" mc="PropertyContainer" uid="6e960164-6618-423e-8ce1-d0d01847b155"/>
+    <PID name="Donjon" mc="AnalystProject" uid="0b3a372f-deab-47db-8f50-09c772d59972"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Donjon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

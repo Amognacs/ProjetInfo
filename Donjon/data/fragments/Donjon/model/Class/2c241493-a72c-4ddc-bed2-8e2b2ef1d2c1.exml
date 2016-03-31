@@ -1,0 +1,547 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Vue" version="3">
+  <DEPS>
+    <ID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+    <COMPID name="Vue (structure_autodiagram)" mc="ClassDiagram" uid="ddb1621f-8688-4f51-86d4-6f3b5f3f4dc1"/>
+    <EXTID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+    <EXTID name="ClavierGestion" mc="Class" uid="c9d7d7e1-5f89-436d-8838-606f352301be"/>
+    <EXTID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+    <EXTID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+    <EXTID name="IOException" mc="Class" uid="ff2c796b-4811-4825-a536-097332bc758f"/>
+    <EXTID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+    <EXTID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+    <EXTID name="PanJeu" mc="Class" uid="720e29b8-c895-421e-a430-be71b4fd058c"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3767-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Vue]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="main" mc="Operation" uid="98de86d9-1359-4116-b22d-3c45789e50d5"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[main]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="args" mc="Parameter" uid="cdd0815e-99cb-43ba-98e3-6c40fe7c42e9"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[args]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                  </LINK>
+                  <COMP relation="Tag">
+                    <OBJECT>
+                      <ID name="" mc="TaggedValue" uid="430a8029-1ae4-428d-b8ac-b33f2c58b030"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Actual">
+                          <OBJECT>
+                            <ID name="" mc="TagParameter" uid="d1ce4e6e-5bbb-49d5-908f-58bd4e461c26"/>
+                            <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                            <ATTRIBUTES>
+                              <ATT name="Value"><![CDATA[Array]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES></DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Definition">
+                          <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3767-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="87201cb2-d6e4-4c4b-9b81-dfaaf12b7e90"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[boolean boolBoucleMenu = true;
+Fenetre fenetre1 = new Fenetre();
+while (boolBoucleMenu){
+    fenetre1.creationPanFenetre();
+    boolean boolContinuer = true;
+    while (boolContinuer){
+        if (fenetre1.getContinuerJeu()){
+            boolContinuer = false;                   
+        }
+    }
+}
+]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="fenetre" mc="AssociationEnd" uid="7961ed6d-03c6-4a62-bff1-9be717f7474b"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[fenetre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Fenetre" mc="Class" uid="e75aa545-a3eb-47b8-8a47-cb4fcc6864d7"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="59d9d170-c484-4aca-b730-5c0acc0a338a"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="fenetre" mc="AssociationEnd" uid="7961ed6d-03c6-4a62-bff1-9be717f7474b"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="1de71ff3-ab10-4191-a5a2-d01df3164fc5"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="1de71ff3-ab10-4191-a5a2-d01df3164fc5"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="e421ff9c-cea5-46dc-b06b-40859b19ba33"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="panJeu" mc="AssociationEnd" uid="b88a5ffa-6005-4448-9d97-4f1923736a3c"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[panJeu]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="PanJeu" mc="Class" uid="720e29b8-c895-421e-a430-be71b4fd058c"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="87a1acfc-c9ad-432f-a16e-410a547ee022"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="panJeu" mc="AssociationEnd" uid="b88a5ffa-6005-4448-9d97-4f1923736a3c"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="0fdd697d-733a-4d10-ae8b-56a732f2f6a1"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="0fdd697d-733a-4d10-ae8b-56a732f2f6a1"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="da4bad54-f56b-4a01-95d6-27073937772e"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="clavierGestion" mc="AssociationEnd" uid="96ac004c-9f89-428f-9d04-e383dd528128"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[clavierGestion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="ClavierGestion" mc="Class" uid="c9d7d7e1-5f89-436d-8838-606f352301be"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="0fd8ca8a-8852-4a40-a668-543be4cb817e"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="clavierGestion" mc="AssociationEnd" uid="96ac004c-9f89-428f-9d04-e383dd528128"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="5a6c1b64-8444-45e4-8d3c-b67113e34955"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="5a6c1b64-8444-45e4-8d3c-b67113e34955"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="175a1fb1-dc4b-4c8d-9e20-21d523874bf3"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="JavaNoInitValue" mc="TagType" uid="00d007fc-0003-bf52-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="observableReel" mc="AssociationEnd" uid="c39e537b-9467-43f1-a5bb-d1b39126065b"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">AccesNone</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[observableReel]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Labyrinthe" mc="Class" uid="9e811e9b-b7a6-47ac-9f6b-0a4ccca52ac7"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="e05ce899-83a8-40dc-983b-79edb517d2d0"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"></ATT>
+                  <ATT name="MultiplicityMax"></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="observableReel" mc="AssociationEnd" uid="c39e537b-9467-43f1-a5bb-d1b39126065b"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="ad8251be-c46e-4a8c-a5b7-63269b542533"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="ad8251be-c46e-4a8c-a5b7-63269b542533"/>
+            </COMP>
+            <COMP relation="Tag">
+              <OBJECT>
+                <ID name="" mc="TaggedValue" uid="714e909c-f665-4d92-b50a-a524cf09d5d8"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Actual">
+                    <OBJECT>
+                      <ID name="" mc="TagParameter" uid="fd796021-115e-436a-b1cc-34ff6928729f"/>
+                      <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                      <ATTRIBUTES>
+                        <ATT name="Value"><![CDATA[List]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Definition">
+                    <FOREIGNID name="type" mc="TagType" uid="00000000-0000-3766-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="2089ae3f-7417-425c-b127-6d3b81084b32"/>
+                <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[new ArrayList<Labyrinthe> ()]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaInitValue" mc="NoteType" uid="00380080-0000-0994-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="InterfaceRealization" uid="86215ab7-69bb-47fe-b753-d9af7b5dc0e2"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="Observer" mc="Interface" uid="5ea3d397-f7ad-4eef-97b0-3bbe52e94e22"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedImport">
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="0fd9a4cc-08e8-4e8f-86e4-f5e7df4cc3cb"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="ArrayList" mc="Class" uid="11358509-cb02-415b-a652-f7306c713429"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="4a20ad81-b8e1-40df-9ab2-99241d1acd40"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="Color" mc="Class" uid="60470174-f219-43b0-858b-608e36fca8eb"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ElementImport" uid="f8bc96fe-47a8-44ef-856d-97ea47bed89d"/>
+          <PID name="Vue" mc="Class" uid="2c241493-a72c-4ddc-bed2-8e2b2ef1d2c1"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="ImportedElement">
+              <ID name="IOException" mc="Class" uid="ff2c796b-4811-4825-a536-097332bc758f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Vue (structure_autodiagram)" mc="ClassDiagram" uid="ddb1621f-8688-4f51-86d4-6f3b5f3f4dc1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

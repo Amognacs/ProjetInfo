@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Donjon" version="3">
+  <DEPS>
+    <ID name="Donjon" mc="DiagramSet" uid="2fc8ef3e-5ca8-4bc8-a3b9-d9469b0444fb"/>
+    <COMPID name="Auto Diagrams" mc="DiagramSet" uid="400e0564-92a9-4f7e-a48b-d116d3b94507"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Donjon" mc="DiagramSet" uid="2fc8ef3e-5ca8-4bc8-a3b9-d9469b0444fb"/>
+    <PID name="Donjon" mc="Project" uid="7d0a4ed6-8262-460c-a299-82442ef36fd6"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Donjon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Sub">
+        <COMPID name="Auto Diagrams" mc="DiagramSet" uid="400e0564-92a9-4f7e-a48b-d116d3b94507"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

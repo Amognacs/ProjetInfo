@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ElementSpecial" version="3">
+  <DEPS>
+    <ID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+    <COMPID name="ElementSpecial (structure_autodiagram)" mc="ClassDiagram" uid="f6d69a85-acfe-4bb5-b447-dc28bc2fb074"/>
+    <COMPID name="ElementSpécial (structure_autodiagram)" mc="ClassDiagram" uid="c7233410-6b06-4b5a-879b-f1e597641273"/>
+    <EXTID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+    <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ElementSpecial]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="ElementSpecial" mc="Operation" uid="c930029c-2a60-4b5c-bffe-644f4a8f1440"/>
+          <PID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[ElementSpecial]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="IO">
+              <OBJECT>
+                <ID name="X" mc="Parameter" uid="0ba64e5a-f6c1-4cfe-95e9-554deed9827f"/>
+                <PID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[X]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Y" mc="Parameter" uid="9c7d1c85-3d6c-4d0f-af5d-0f10610ec6ed"/>
+                <PID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+                <ATTRIBUTES>
+                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="TypeConstraint"></ATT>
+                  <ATT name="DefaultValue"></ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="IsException">false</ATT>
+                  <ATT name="IsStream">false</ATT>
+                  <ATT name="Effect">ReadEffect</ATT>
+                  <ATT name="Name"><![CDATA[Y]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="create" mc="Stereotype" uid="00700680-0000-0204-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Note" uid="6a48c254-2f1a-44ad-82aa-7d2200a316bc"/>
+                <PID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[super(X, Y);]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="JavaCode" mc="NoteType" uid="003800a8-0000-018e-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="347ea1ce-d946-446a-87e9-a2ecc95a5663"/>
+          <PID name="ElementSpecial" mc="Class" uid="8a84dfe7-be2e-4f7b-931d-4bf98f295e32"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Element" mc="Class" uid="2b1b7471-3ba2-4ecd-93eb-7c49c2d962f6"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="ElementSpécial (structure_autodiagram)" mc="ClassDiagram" uid="c7233410-6b06-4b5a-879b-f1e597641273"/>
+        <COMPID name="ElementSpecial (structure_autodiagram)" mc="ClassDiagram" uid="f6d69a85-acfe-4bb5-b447-dc28bc2fb074"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

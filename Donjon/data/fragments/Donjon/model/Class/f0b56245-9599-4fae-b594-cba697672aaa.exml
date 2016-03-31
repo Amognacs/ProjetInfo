@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Armure" version="3">
+  <DEPS>
+    <ID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+    <COMPID name="Armure (structure_autodiagram)" mc="ClassDiagram" uid="c75c50e5-972f-4cc3-8e0b-6bced55fd4c8"/>
+    <EXTID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+    <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+    <PID name="donjon" mc="Package" uid="bd1eab5f-02b7-435d-8c70-ea08136e93a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Armure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="defendre" mc="Operation" uid="904d30e1-4ec7-4752-9ecc-f301dc81e3b9"/>
+          <PID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[defendre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="dd6f0e66-8d6a-4be0-bdb5-24396c9537c5"/>
+          <PID name="Armure" mc="Class" uid="f0b56245-9599-4fae-b594-cba697672aaa"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Defense" mc="Class" uid="3c207b84-7aa2-4556-8f93-0830505e846e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Armure (structure_autodiagram)" mc="ClassDiagram" uid="c75c50e5-972f-4cc3-8e0b-6bced55fd4c8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
